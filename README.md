@@ -175,8 +175,3 @@ Battery-ring tray icons, enlarged on the top row and at actual size on the botto
 python -m unittest discover -s tests -v
 ```
 
-## Acknowledgments
-
-Inspired by [yszyszysz233/2.4G-battery-viewer](https://github.com/yszyszysz233/2.4G-battery-viewer), reusing its `hid_win.py`, `bt_battery.py`, `win_icon.py`, and `win_shell.py` modules. This project adds device-protocol integration for the tested hardware, HID++ response matching, the four-device dashboard, system tray behavior, and settings management.
-
-Protocol implementations were cross-checked against [atk-tool-plus](https://github.com/papelblume/atk-tool-plus), [Solaar HID++](https://github.com/pwr-Solaar/Solaar/blob/master/lib/logitech_receiver/hidpp20.py), the [Linux PlayStation driver](https://github.com/torvalds/linux/blob/master/drivers/hid/hid-playstation.c), and the [SDL DS4 driver](https://github.com/libsdl-org/SDL/blob/main/src/joystick/hidapi/SDL_hidapi_ps4.c).
